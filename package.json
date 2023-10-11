@@ -1,0 +1,16 @@
+{
+  "name": "config-providers-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "run": "tsc && node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

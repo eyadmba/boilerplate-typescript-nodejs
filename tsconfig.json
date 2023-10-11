@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+
+    // module compilation rules
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    // other compilation rules
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+
+    // optimize transpiled output
+    "removeComments": true,
+    "importHelpers": true,
+
+    // syntax rules
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "baseUrl": "src",
+    "rootDir": "src",
+    "outDir": "dist",
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "include": ["src"],
+}
